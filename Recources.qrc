@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/toolBar">
+        <file>images/save.png</file>
+        <file>images/Open.png</file>
+        <file>images/SaveAll.png</file>
+        <file>images/New.png</file>
+    </qresource>
+    <qresource prefix="/xml">
+        <file>styles.xml</file>
+    </qresource>
+</RCC>
