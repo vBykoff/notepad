@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <syntaxes>
+        <syntax id = "C++" name = "C++ language" ext_list = "cpp cxx cc h hh hpp hxx ino">
+            <rule>
+                <pattern value = "\boperator\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bprivate\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bprotected\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bpublic\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bclass\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+            </rule>
+            <rule>
+                <pattern value = "#[^\n]*"/>
+                <format foreground="#D15E8B" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bchar\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bconst\b"/>
+                <format foreground="#FF1493" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bdouble\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\benum\b"/>
+                <format foreground="#D69A95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bexplicit\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bfriend\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\binline\b"/>
+                <format foreground="#D69A95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bint\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\blong\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bnamespace\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bshort\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bsignals\b"/>
+                <format foreground="#D15E8B" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bsigned\b"/>
+                <format foreground="#FF1493" font_weight="7"/>
+           </rule>
+            <rule>
+                <pattern value = "\bslots\b"/>
+                <format foreground="#D15E8B" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bstatic\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bstruct\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\btemplate\b"/>
+                <format foreground="#D15E8B" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\btypedef\b"/>
+                <format foreground="#FFD700" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\btypename\b"/>
+                <format foreground="#FFD700" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bvirtual\b"/>
+                <format foreground="#45C6D6" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bbool\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bvoid\b"/>
+                <format foreground="#B08C95" font_weight="75"/>
+           </rule>
+            <rule>
+                <pattern value = "\bQ[A-Za-z]+\b"/>
+                <format foreground="#FF8080" font_weight="75"/>
+           </rule>
+           <rule>
+               <pattern value = "\bnew\b"/>
+               <format foreground="#45C6D6" font_weight="75"/>
+          </rule>
+          <rule>
+              <pattern value = "\bthis\b"/>
+              <format foreground="#45C6D6" font_weight="75"/>
+         </rule>
+         <rule>
+             <pattern value = "\bconnect\b"/>
+             <format foreground="#D15E8B" font_weight="75"/>
+        </rule>
+        <rule>
+            <pattern value = "\breturn\b"/>
+            <format foreground="#45C6D6" font_weight="75"/>
+       </rule>
+       <rule>
+           <pattern value = "\bif\b"/>
+           <format foreground="#45C6D6" font_weight="75"/>
+      </rule>
+      <rule>
+          <pattern value = "\belse\b"/>
+          <format foreground="#45C6D6" font_weight="75"/>
+     </rule>
+     <rule>
+         <pattern value = "\bfor\b"/>
+         <format foreground="#45C6D6" font_weight="75"/>
+    </rule>
+    <rule>
+        <pattern value = "\bwhile\b"/>
+        <format foreground="#45C6D6" font_weight="75"/>
+   </rule>
+   <rule>
+       <pattern value = "\btrue\b"/>
+       <format foreground="#45C6D6" font_weight="75"/>
+  </rule>
+  <rule>
+      <pattern value = "\bfalse\b"/>
+      <format foreground="#45C6D6" font_weight="75"/>
+ </rule>
+        </syntax>
+    </syntaxes >
+</settings>

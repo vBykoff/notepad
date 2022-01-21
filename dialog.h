@@ -19,11 +19,11 @@ public:
     explicit Dialog(QWidget *parent = nullptr);
     ~Dialog();
 
-    void fillTable(const QVector<QDir>& , const QStringList &,const QVector<bool>& isChangedDoc);
+    void FillTable(const QVector<QDir>&, const QStringList&, const QVector<bool>&);
 
-private slots:
+protected:
 
-   void closeEvent(QCloseEvent* event) override;
+   void closeEvent(QCloseEvent* event) override; //!!! Что делает метод обработки события в private slots??? (исправлено)
 
 private:
 

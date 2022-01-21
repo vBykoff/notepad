@@ -10,15 +10,15 @@ CONFIG += c++11
 
 SOURCES += \
     dialog.cpp \
-    highlighter.cpp \
+    editcode.cpp \
+    highlight.cpp \
     main.cpp \
-    codeeditor.cpp\
     mainwindow.cpp
 
 HEADERS += \
     dialog.h \
-    codeeditor.h\
-    highlighter.h \
+    editcode.h \
+    highlight.h \
     mainwindow.h
 
 FORMS += \
@@ -31,4 +31,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    Recources.qrc
+    Resources.qrc
